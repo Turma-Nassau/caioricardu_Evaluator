@@ -51,7 +51,7 @@
 })
 ~~~
 
-* Criador de categorias de filmes
+* Criador de categorias e avaliações comentadas
 ~~~ const Variedade = banco_de_dados.sequelize.define('Variedade', {
 
     categoria: {
