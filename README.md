@@ -23,6 +23,30 @@
   </tr>
 </table>
 
+## Módulos do Node.JS
+<table>
+  <tr>
+    <td> Express </td>
+    <td> Express-Handlebars </td>
+    <td> Express-session </td>
+    <td> Connect-flash </td>
+    <td> Body-Parser </td>
+    <td> MySql2 </td>
+    <td> Swagger </td>
+    <td> Path </td>
+   </tr>
+   <tr>
+    <td> 4.18.2 </td>
+    <td> 7.0.4 </td>
+    <td> 1.17.3 </td>	
+    <td> 0.1.1 </td>	
+    <td> 1.20.2 </td>	
+    <td> 7.0.3 </td>	
+    <td> 4.6.2 </td>	
+    <td> 1.0.0 </td>
+  </tr>
+ </table>
+    
 ## Estrutura de dados:
 
 * Formulário para cadastro de usuários
