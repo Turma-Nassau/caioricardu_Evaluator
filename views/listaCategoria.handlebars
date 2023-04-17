@@ -1,0 +1,13 @@
+<h1 >Lista de categorias:</h1>
+
+
+{{#each dados}}    <!-para cada dado faça algo->
+<small>{{createdAt}}</small>
+<hr>
+<h3>categorias: {{ categoria }}</h3>
+<h3>avaliação: {{ avaliacao_comentada }}</h3>
+
+<a href="/deletarVariedade/{{id}}"><button>Deletar</button></a>
+<hr>
+
+{{/each}}

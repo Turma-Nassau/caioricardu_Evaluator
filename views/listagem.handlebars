@@ -1,0 +1,15 @@
+<h1 >Lista de usuários cadastrados:</h1>
+
+
+{{#each dados}}    <!-para cada dado faça algo->
+<small>{{createdAt}}</small>
+<hr>
+<h3>nome: {{ nome }}</h3>
+<h3>sobrenome: {{ sobrenome }}</h3>
+<p>email: {{ email }}</p>
+<p>idade: {{ idade }}</p>
+<p>senha: {{ senha }}</p>
+<a href="/deletar/{{id}}"><button>Deletar</button></a>
+<hr>
+
+{{/each}}
